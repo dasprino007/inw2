@@ -1,0 +1,46 @@
+{
+ "produtos": [
+ {
+ "id": 1,
+ "descricao": "tenis vermelho",
+ "estoque": 10,
+ "valor": 100,
+ "img" : "./assets/1.jpg"
+ },
+ {
+ "id": 2,
+ "descricao": "tenis Rosa",
+ "estoque": 10,
+ "valor": 45,
+ "img" : "./assets/2.jpg"
+ },
+ {
+ "id": 3,
+ "descricao": "tenis azul",
+ "estoque": 10,
+ "valor": 200,
+ "img" : "./assets/3.jpg"
+ },
+ {
+"id": 4,
+"descricao": "sapatenis preto",
+"estoque": 110,
+"valor": 100,
+"img" : "./assets/4.jpg"
+},
+ {
+"id": 5,
+"descricao": "tenis preto",
+"estoque": 20,
+"valor": 160,
+"img" : "./assets/5.jpg"
+},
+{
+"id": 6,
+"descricao": "tenis preto-escuro",
+"estoque": 110,
+"valor": 100,
+"img" : "./assets/6.jpg"
+}
+ ]
+}
