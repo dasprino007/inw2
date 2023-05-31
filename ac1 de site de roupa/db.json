@@ -1,0 +1,26 @@
+
+    {
+        "banco": [
+        {
+        "id": 1,
+        "nome": "camisa do miles morales edição limitada",
+        "descricao": "uma camisa limitada preta com homem aranha",
+        "valor": "20",
+        "img": "images/57392723-800-auto.jpg"
+        },
+        {
+        "id": 2,
+        "nome": "camisa dos homens aranhas",
+        "descricao": "uma camisa preta com estampa de varios homens aranhas",
+        "valor": "30",
+        "img": "images/homemAranha.jpg"
+        },
+        {
+        "id": 3,
+        "nome": "casaco marvel vermelho",
+        "descricao": "casaco do vermelho da marvel",
+        "valor": "40",
+        "img": "images/jaqueta.jpg"
+        }
+        ]
+}
