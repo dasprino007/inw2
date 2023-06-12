@@ -1,0 +1,13 @@
+
+ .container {
+ margin-top: 100px;
+ }
+ form {
+ background-color: #f7f7f7;
+ padding: 20px;
+ border-radius: 5px;
+ }
+ button {
+ width: 100%;
+ }
+
