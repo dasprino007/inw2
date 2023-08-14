@@ -4,57 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <title>espaço publico da arte</title>
 </head>
 <body>
     <header>
-        <nav class="navbar bg-dark bg-body-tertiary" data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                EPDA
-              </a>
-              <div>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-row">
-                  <li class="nav-item  g-col-6">
-                    <a class="nav-link" href="#">introdução</a>
-                  </li>
-                  <li class="nav-item  g-col-6">
-                    <a class="nav-link" href="#">proposta</a>
-                  </li>
-                  <li class="nav-item  g-col-6">
-                    <a class="nav-link" href="#">objetivos</a>
-                  </li>
-                  <li class="nav-item  g-col-6">
-                    <a class="nav-link" href="#">sobre nos</a>
-                  </li>
-                </ul>
-                </div>
-          </nav>
-          <div class="mx-auto gap-lg-4" style="width: 80vw; height: auto;">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="white">
+        <div class="container-fluid">
+          <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link href="#">introdução</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">proposta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">objetivos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">sobre nos</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+          <div class="d-flex flex-column mx-auto gap-lg-2" style="width: 80vw; height: auto;">
                 <h2 class="py-lg-2 fw-bolder" id="intruducao">introdução</h2>
 
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark" id="carrousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active" data-bs-interval="10000">
                         <div class="container d-flex align-items-center justify-content-center" id="car1">
-                            <div class="d-block gap-3" id="bloco">
+                            <div class="d-flex flex-column gap-1" id="bloco">
                                 <h2>democratizar a arte</h2>
-                                <h5>nosso objetivo é traduzir qualquer arte que esteja no dominio publico pra fins educativos, entreterimento e cultural 
+                                <p>nosso objetivo é traduzir qualquer arte que esteja no dominio publico pra fins educativos, entreterimento e cultural 
 
-                                    se quiser ver em detalhes clique no botão abaixo</h5>
-                                    <button class="btn btn-warning" type="button">objetivos</button>
+                                    se quiser ver em detalhes clique no botão abaixo</p>
+                                    <button class="btn btn-warning" type="button" style="width: min-content;">objetivos</button>
                             </div>
                             <img src="img/pexels-element-digital-1370298.jpg" alt="..." id="img_celula">
                         </div>
                       </div>
                       <div class="carousel-item" data-bs-interval="2000">
-                        <img src="img/pexels-element-digital-1370298.jpg" class="d-block w-100" alt="...">
+                        <div class="container d-flex align-items-center justify-content-center" id="car1">
+                          <div class="container d-flex align-items-center justify-content-center" id="car1">
+                            <div class="d-flex flex-column gap-1" id="bloco">
+                                <h3>democratizar a arte</h3>
+                                <p>nosso objetivo é traduzir qualquer arte que esteja no dominio publico pra fins educativos, entreterimento e cultural 
+
+                                    se quiser ver em detalhes clique no botão abaixo</p>
+                                    <button class="btn btn-primary" type="button" style="width: min-content;">objetivos</button>
+                            </div>
+                            <img src="img/pexels-element-digital-1370298.jpg" alt="..." id="img_celula">
+                        </div>
+                      </div>
                       </div>
                       <div class="carousel-item">
-                        <img src="img/pexels-element-digital-1370298.jpg" class="d-block w-100" alt="...">
+                        <div class="container d-flex align-items-center justify-content-center" id="car1">
+                          <div class="container d-flex align-items-center justify-content-center" id="car1">
+                            <div class="d-flex flex-column gap-1" id="bloco">
+                                <h2>democratizar a arte</h2>
+                                <p>nosso objetivo é traduzir qualquer arte que esteja no dominio publico pra fins educativos, entreterimento e cultural 
+
+                                    se quiser ver em detalhes clique no botão abaixo</p>
+                                    <button class="btn btn-info" type="button" style="width: min-content;">objetivos</button>
+                            </div>
+                            <img src="img/pexels-element-digital-1370298.jpg" alt="..." id="img_celula">
+                        </div>
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -65,9 +87,41 @@
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
                     </button>
-                  </div>
-
+                  </div> 
           </div>
     </header>
+    <main class="d-flex flex-column mx-auto gap-lg-2 py-lg-5" style="width: 80vw; height: auto;">
+      <h2>a nossa proposta</h2>
+      <p>A ONG "espaço publico da arte" tem o compromisso de promover a acessibilidade cultural e educacional para todos. Nossa nova iniciativa visa traduzir obras de arte em domínio público, tornando-as acessíveis a pessoas de diferentes idiomas e culturas. Acreditamos que a arte é uma forma poderosa de expressão e comunicação, e nossa proposta busca compartilhar essas valiosas criações com um público global diversificado.</p>
+      <h3>nossos objetivos</h3>
+      <div class="row flex-wrap">
+        <div>
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="list-item-1">Explorando o Domínio Público com a Ajuda da IA: Tradução de Filmes, Livros e Séries</h4>
+            <p>Nosso mundo está intrinsecamente conectado através da tecnologia e da informação. A cada dia, as fronteiras culturais são desafiadas e derrubadas, permitindo que diferentes nações e línguas se unam em um caleidoscópio de diversidade. Imagine agora poder experimentar obras cinematográficas, literárias e televisivas de várias partes do mundo, independentemente do idioma original. Bem-vindo à iniciativa pioneira da nossa organização, que utiliza a inteligência artificial para traduzir filmes, livros e séries que estão no domínio público.</p>
+            <h4 id="list-item-2">Explorando o Tesouro do Domínio Público:</h4>
+            <p>O domínio público abriga uma riqueza de criações culturais que podem ser livremente acessadas e compartilhadas. Desde clássicos literários a filmes icônicos e séries marcantes, essas obras são um testemunho do talento humano ao longo da história. No entanto, muitas vezes, a barreira da língua tem limitado o acesso dessas joias culturais a uma audiência global. É aqui que a inteligência artificial entra em cena.</p>
+            <h4 id="list-item-3">Inteligência Artificial: Uma Ponte entre Culturas</h4>
+            <p>Com a tecnologia de inteligência artificial, estamos capacitados a cruzar fronteiras linguísticas de maneira fluida. Nossa IA é treinada para compreender as nuances linguísticas e contextuais de diferentes idiomas, permitindo que ela traduza filmes, livros e séries do domínio público com precisão e autenticidade. A IA não apenas traduz o texto, mas também preserva o tom, a emoção e a intenção do trabalho original.</p>
+            <h4 id="list-item-4">A Magia da Tradução Cultural:</h4>
+            <p>Traduzir é mais do que substituir palavras. É mergulhar na essência da obra, capturar sua alma e transmitir essa experiência a uma nova audiência. A IA não apenas traduz diálogos, mas também mantém intacta a atmosfera, os costumes e os valores culturais que tornam essas criações únicas. Isso significa que um romance francês do século XIX pode encantar um leitor chinês, ou um filme japonês dos anos 50 pode emocionar um espectador brasileiro.</p>
+            <h4>Acessibilidade Cultural para Todos:</h4>
+            <p>Nossa visão é simples: tornar a cultura global acessível a todos. Ao traduzir essas obras incríveis por meio da IA, estamos construindo pontes culturais, promovendo a compreensão mútua e celebrando a riqueza da diversidade humana. Estudantes, amantes da cultura e curiosos terão a oportunidade de explorar e apreciar criações de diferentes partes do mundo, enriquecendo suas perspectivas e ampliando seus horizontes.</p>
+            <h4>Conclusão:</h4>
+            <p>Estamos no limiar de uma nova era de acesso cultural. Através da fusão de inteligência humana e artificial, estamos abrindo portas para um mundo onde filmes, livros e séries do domínio público transcendem as barreiras da língua e se tornam patrimônio compartilhado. Junte-se a nós nessa jornada para celebrar a beleza da diversidade cultural e da tecnologia.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      </ul>
+      <p class="text-center text-muted">© 2022 Company, Inc</p>
+    </footer>
 </body>
 </html>
