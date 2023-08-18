@@ -13,6 +13,25 @@
 #img_celula{
   width: 40vw;
 }
+#img_celula1{
+  width: 40vw;
+}
+#proposta{
+  background-color: #FAA619;
+}
+#frase1{
+  width: 40px;
+}
+#frase{
+  width: 35vw;
+}
+
+#retangulo{
+  background-color: #D9D9D9;
+  width: 20px;
+  height: 300px;
+}
+
 @media (max-width: 1100px) {
 #carrousel{
  width: 100vw;
@@ -27,6 +46,18 @@
   flex-direction: column;
 }
 #img_celula{
-  width: 0vw;
+  width: 50vw;
+  padding-bottom: 40px;
+}
+#frase{
+  width: 75vw;
+}
+#frase1{
+  width: 100vw;
+  height: min-content;
+}
+#img_celula1{
+  width: 75vw;
+  padding-bottom: 20px;
 }
   }
