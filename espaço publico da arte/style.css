@@ -61,3 +61,39 @@
   padding-bottom: 20px;
 }
   }
+
+  .container{
+    text-align: center;
+    width: 30vw;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input{
+    width: 95%;
+    padding: 10px;
+    margin: 20px 0px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#loginButton{
+  margin: 20px 0px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #06C755;
+    border: 0px;
+    transition: 50ms;
+}
+
+#loginButton:hover{
+    transition: 50ms;
+    background-color: #028137;
+}
+
+#loginButton::after{
+    transition: 50ms;
+    background-color: #00200d;
+}
